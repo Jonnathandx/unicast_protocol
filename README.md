@@ -50,4 +50,5 @@ Para compilar y ejecutar correctamente este protocolo, se requiere el siguiente 
 El protocolo utiliza una métrica compuesta para clasificar a los vecinos en la NNT:
 
 GS_temp = ((temp->wdist) + 2*(temp->Nv) + 0.4*(temp->time-temp->initime));
+
 GS_curr = ((curr->wdist) + 2*(curr->Nv) + 0.4*(curr->time-curr->initime));
