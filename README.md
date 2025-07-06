@@ -52,3 +52,10 @@ El protocolo utiliza una métrica compuesta para clasificar a los vecinos en la 
 GS_temp = ((temp->wdist) + 2*(temp->Nv) + 0.4*(temp->time-temp->initime));
 
 GS_curr = ((curr->wdist) + 2*(curr->Nv) + 0.4*(curr->time-curr->initime));
+
+Donde:
+- **distancia** es la distancia entre el nodo actual y el vecino.
+- **densidad** representa cuántos vecinos ha detectado el nodo.
+- **antigüedad** mide cuán reciente es la información del beacon.
+
+El nodo con menor GS se considera el mejor candidato para el reenvío.
