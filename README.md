@@ -16,3 +16,5 @@ Cada nodo toma decisiones de reenvío localmente, priorizando el vecino con mejo
 ├── DemoBaseApplLayer.cc     # Lógica común de aplicación: beacons, WSM, WSA, movilidad
 ├── TraCIDemo11p.cc          # Implementación específica del protocolo unicast multisalto
 ├── README.md                # Este archivo
+```
+## ⚙️ Requisitos
